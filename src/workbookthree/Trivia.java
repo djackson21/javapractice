@@ -43,9 +43,9 @@ public class Trivia {
         System.out.println("Your final score is: " + score + "/20");
 
         //Task 3: print a message depending on the score
-        if (score > 15){
+        if (score >= 15){
             System.out.println("Wow, you know your stuff!");
-        } if (score > 5){
+        } if (score >= 5){
             System.out.println("Not bad!");
         } else {
             System.out.println("better luck next time.");
